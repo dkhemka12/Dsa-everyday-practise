@@ -9,7 +9,6 @@ def findMaxConsecutiveOnes(nums):
             count += 1
         else:
             count = 0
-
         if count > max_count:
             max_count = count
 
